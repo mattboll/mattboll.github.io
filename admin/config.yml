@@ -2,7 +2,7 @@ local_backend: true
 
 backend:
   name: github
-  branch: mattboll/mattboll.github.io
+  repo: mattboll/mattboll.github.io
   # name: git-gateway
   # branch: main
 
