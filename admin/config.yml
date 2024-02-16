@@ -1,8 +1,10 @@
 local_backend: true
 
 backend:
-  name: git-gateway
-  branch: main
+  name: github
+  branch: mattboll/mattboll.github.io
+  # name: git-gateway
+  # branch: main
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
