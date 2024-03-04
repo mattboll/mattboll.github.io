@@ -1,0 +1,8 @@
+<header>
+    <nav>
+        <a href="/" class="brand">Code-Troopers</a>
+        {{ range .Site.Data.menu.links }}
+            <a href="{{ .url }}">{{ .name }}</a>
+        {{ end }}
+    </nav>
+</header>

@@ -1,0 +1,20 @@
+{
+  "links": [
+    {
+      "name": "Compétences",
+      "url": "#skills"
+    },
+    {
+      "name": "Réalisations",
+      "url": "#portfolio"
+    },
+    {
+      "name": "L'équipe",
+      "url": "https://team.code-troopers.com"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    }
+  ]
+}
