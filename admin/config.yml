@@ -1,14 +1,15 @@
-local_backend:
+local_backend: true
+
+backend:
   # For use in development
   name: proxy
   proxy_url: http://localhost:8081/api/v1
   branch: main
-
-backend:
+  # --
   # For use in production on GitHub
-  name: github
-  repo: mattboll/mattboll.github.io
-  branch: main
+  # name: github
+  # repo: mattboll/mattboll.github.io
+  # branch: main
   # --
   # For use in production on netlify
   # name: git-gateway
