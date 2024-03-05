@@ -1,14 +1,17 @@
 local_backend: true
 
 backend:
+  # For use in development
   name: proxy
   proxy_url: http://localhost:8081/api/v1
   branch: main
   # --
+  # For use in production on GitHub
   # name: github
   # repo: mattboll/mattboll.github.io
   # branch: main
   # --
+  # For use in production on netlify
   # name: git-gateway
   # branch: main
 
@@ -33,24 +36,29 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "cover", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+  - name: "work" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Work" # Used in the UI, ie.: "New Post"
+    folder: "site/content/work" # The path to the folder where the documents are stored
+    media_folder: ".."
+    path: "{{slug}}" # Each document is inside a folder with the slug name.
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number"}
+      - {label: "Url", name: "url", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "cover", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
   - name: "home"
     label: "Home"
     files:
-      - file: "site/content/_index.md"
+      - file: "site/content/_index.html"
         label: "Home Page"
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Body, name: body, widget: markdown}
-  - name: "pages"
-    label: "Pages"
-    folder: "site/content" # The path to the folder where the documents are stored
-    path: "{{slug}}/index" # Each document is inside a folder with the slug name.
-    create: true # Allow users to create new documents in this collection
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: Body, name: body, widget: markdown}
+          - {label: Body, name: body, widget: text}
   - name: "site_settings"
     label: "Site Settings"
     files:
