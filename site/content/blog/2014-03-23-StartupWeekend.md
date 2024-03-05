@@ -4,7 +4,7 @@ author: Code-Troopers
 url: /2014/03/23/startupweekend/
 aliases: 2014/03/23/StartupWeekend.html
 date: 2014-03-23
-cover: images/banner/swtours-banner.png
+cover: ../swtours-banner.png
 tags:
   - startup
   - tours
