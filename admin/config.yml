@@ -60,6 +60,11 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Text, name: text, widget: string}
           - {label: Liens, name: liens, widget: list, fields: [{label: Text, name: text, widget: string}, {label: Url, name: url, widget: string}]}
+      - file: "site/data/menu.json"
+        label: Menu
+        name: menu
+        fields:
+          - {label: Links, name: links, widget: list, fields: [{label: Name, name: name, widget: string}, {label: Url, name: url, widget: string}]}
       - file: "site/hugo.toml"
         label: Hugo Config
         name: config
