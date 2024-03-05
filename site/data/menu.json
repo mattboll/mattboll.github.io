@@ -1,19 +1,28 @@
 {
   "links": [
     {
+      "name": "Code-Troopers",
+      "id": "id-company",
+      "url": "/"
+    },
+    {
       "name": "Compétences",
+      "id": "id-skills",
       "url": "#skills"
     },
     {
       "name": "Réalisations",
+      "id": "id-portfolio",
       "url": "#portfolio"
     },
     {
       "name": "L'équipe",
+      "id": "id-casting",
       "url": "https://team.code-troopers.com"
     },
     {
       "name": "Blog",
+      "id": "id-blogs",
       "url": "/blog"
     }
   ]
