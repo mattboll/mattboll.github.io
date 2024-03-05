@@ -3,7 +3,7 @@ title: k is the new l, yo
 author: Matthieu
 url: /2014/05/14/kisthenewl/
 aliases: 2014/05/14/kIsTheNewL.html
-date: 2014-05-13T22:00:00.000Z
+date: 2014-05-14
 cover: kisthenewl-banner.png
 tags:
   - zsh
