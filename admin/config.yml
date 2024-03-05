@@ -1,5 +1,3 @@
-local_backend: true
-
 local_backend:
   # For use in development
   name: proxy
