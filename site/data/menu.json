@@ -24,6 +24,11 @@
       "name": "Blog",
       "id": "id-blogs",
       "url": "/blog"
+    },
+    {
+      "name": "Contact",
+      "id": "id-contact",
+      "url": "#contact"
     }
   ]
 }
