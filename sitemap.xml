@@ -8,6 +8,12 @@
     </url>
     
     <url>
+        <loc>https://code-troopers.com/dossierfacile.html</loc>
+        <lastmod>2024-03-06T00:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://code-troopers.com/chapito.html</loc>
         <lastmod>2019-04-01T00:00:00+00:00</lastmod>
         <priority>0.8</priority>
@@ -21,8 +27,14 @@
     
     <url>
         <loc>https://code-troopers.com/</loc>
-        <lastmod>2021-10-25T00:00:00+00:00</lastmod>
+        <lastmod>2024-03-06T00:00:00+00:00</lastmod>
         <priority>1</priority>
+    </url>
+    
+    <url>
+        <loc>https://code-troopers.com/work/</loc>
+        <lastmod>2024-03-06T00:00:00+00:00</lastmod>
+        <priority>0.8</priority>
     </url>
     
     <url>
@@ -34,12 +46,6 @@
     <url>
         <loc>https://code-troopers.com/2021/10/25/stages-2022/</loc>
         <lastmod>2021-10-25T00:00:00+00:00</lastmod>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://code-troopers.com/work/</loc>
-        <lastmod>2019-06-01T00:00:00+00:00</lastmod>
         <priority>0.8</priority>
     </url>
     
